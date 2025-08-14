@@ -31,9 +31,15 @@ dependencies:
   universal_io: ^2.2.0
   async: ^2.10.0
   isar:
-    path: ../isar/packages/isar
+    git:
+      url: https://github.com/DavidCarrilho/isar.git
+      ref: sdk35-compatibility
+      path: packages/isar
   isar_flutter_libs:
-    path: ../isar/packages/isar_flutter_libs
+    git:
+      url: https://github.com/DavidCarrilho/isar.git
+      ref: sdk35-compatibility
+      path: packages/isar_flutter_libs
   path_provider: ^2.1.1
   path: ^1.8.2
 
