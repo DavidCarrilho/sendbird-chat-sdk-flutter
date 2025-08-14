@@ -33,12 +33,12 @@ dependencies:
   isar:
     git:
       url: https://github.com/DavidCarrilho/isar.git
-      ref: sdk35-compatibility
+      ref: ab70f2d2
       path: packages/isar
   isar_flutter_libs:
     git:
       url: https://github.com/DavidCarrilho/isar.git
-      ref: sdk35-compatibility
+      ref: ab70f2d2
       path: packages/isar_flutter_libs
   path_provider: ^2.1.1
   path: ^1.8.2
